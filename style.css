@@ -1,0 +1,134 @@
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.car {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 70px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+   
+  
+    
+}
+.section  .box_1 button{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    margin: auto;
+    padding: 3% 7%;
+   border-color: white;
+   padding-bottom: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+    font-weight: bold;
+    border-style: solid;
+    vertical-align: top;
+    display: flex;
+}
+.section .box_1 button:hover{
+    color: white;
+    background-color:hsl(31, 77%, 52%);
+    border-color: white;
+    border-style: double;
+    
+}
+.section .box_2 button{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    margin: auto;
+    padding: 3% 7%;
+    border-color: white;
+    padding-bottom: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+    font-weight: bold;
+    border-style: solid;
+    vertical-align: top;
+    display: flex;
+    
+}
+.section .box_2 button:hover{
+    color: white;
+    background-color:hsl(184, 100%, 22%);
+    border-color: white;
+    vertical-align: top;
+    border-style: double;
+}
+.section .box_3 button{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    margin: auto;
+    padding: 3% 7%;
+   border-color: white;
+   padding-bottom: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+    border-style: solid;
+    vertical-align: top;
+    display: flex;
+}
+.section .box_3 button:hover {
+    color: white;
+    background-color:hsl(179, 100%, 13%);
+    border-color: white;
+    vertical-align: top;
+    border-style: double;
+}
+.section .box_1{
+    background-color:hsl(31, 77%, 52%);
+    height:80vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.section .box_2{
+    background-color: hsl(184, 100%, 22%);
+    height:80vh
+}
+.section .box_3{
+    background-color:  hsl(179, 100%, 13%);
+    height:80vh;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+}
+.section p {
+    display: flex;
+    justify-content: center;
+    margin: 23%;
+    color: white;
+    margin-top: 1px;
+    font-weight: normal;
+    
+}
+.section h2 {
+    display: flex;
+    font-size: 250%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+    margin-left: 20%;
+    text-transform: uppercase;
+    
+} 
+.section svg{
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-top: 10%;
+}
